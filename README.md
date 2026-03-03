@@ -1,2 +1,0 @@
-sitecorepowershell.github.com
-=============================
