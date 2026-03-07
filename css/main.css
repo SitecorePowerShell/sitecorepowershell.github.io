@@ -709,7 +709,7 @@ img.alignnone {
 }
 
 .entry-content h3 {
-  font-size: 1.75rem;
+  font-size: 1.25em;
   margin-top: 1.75em;
   color: var(--color-heading);
 }
@@ -822,7 +822,7 @@ img.alignnone {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.75em;
   margin: 0 0 0.25em;
 }
 
@@ -849,6 +849,21 @@ img.alignnone {
   font-size: 16px;
   color: var(--color-text);
   margin-bottom: 0.75em;
+}
+
+.post-info h2:not(.section-title) {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+.post-info h3:not(.post-title) {
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+
+.post-info h4 {
+  font-size: 1.1em;
+  margin-top: 1em;
 }
 
 .read-more {
@@ -1379,6 +1394,7 @@ pre code {
 
   h2 { font-size: 1.5rem; }
   h3 { font-size: 1.25rem; }
+  .post-title { font-size: 1.75em; }
 
   /* Disable hover transforms on touch devices */
   .post-summary:hover {
